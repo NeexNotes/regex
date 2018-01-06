@@ -1,17 +1,16 @@
+#! python3
+
 # Very insecure password storage for educational purpose only
 # requires xsel utility
 # sudo apt install xsel
 
-
-#! python3
 # pass.py
 
 import pyperclip
 import sys
 
 PASSWORDS = {"email": "ZW0C2XUfQKnmGiN3Fc2LX55Jb",
-             "blog": "nghIz
-             QCDsqJ5r7VKp8f4h",
+             "blog": "nghIzQCDsqJ5r7VKp8f4h",
              "luggage": "672392"}
 
 if len(sys.argv) < 2:
